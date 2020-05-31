@@ -5,6 +5,7 @@
     }
 
     80% {
+        opacity: .7;
         transform: translateX(1rem);
     }
 
@@ -21,6 +22,7 @@
     }
 
     80% {
+        opacity: .7;
         transform: translateX(-1rem);
     }
 
@@ -28,4 +30,17 @@
         opacity: 1;
         transform: translate(0);
     }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }       
+    
 }

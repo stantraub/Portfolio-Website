@@ -1,11 +1,11 @@
 .about {
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 5rem);
     background-image: linear-gradient(
         to bottom, 
-        rgba($color-primary-dark, 0.8), 
-        rgba($color-primary-light, 0.8)),
+        rgba($color-primary-dark, 0.6), 
+        rgba($color-primary-light, 0.6)),
         url('../../../src/images/jeremy-ricketts-FGvRZ-BeCKo-unsplash.jpg');
 
     background-size: cover;
@@ -19,7 +19,7 @@
         animation-timing-function: ease-out;
 
         &-name {
-            color: #09C8FF;
+            color: $color-secondary-light;
         }
     }
 
@@ -31,9 +31,17 @@
 
 .btn {
     border: 1px solid #FFF;
+    margin-top: 1rem;
+    cursor: pointer;
     padding: 1rem;
     font-size: 2rem;
     color: #FFF;
     font-family: inherit;
     background: transparent;
+    animation: moveInBottom 1.25s ease-out;
+    transition: background-color .2s;
+
+    &:hover {     
+        background-color:  #09C8FF;
+    }
 }
