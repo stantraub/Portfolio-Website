@@ -1,0 +1,39 @@
+.about {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom, 
+        rgba($color-primary-dark, 0.8), 
+        rgba($color-primary-light, 0.8)),
+        url('../../../src/images/jeremy-ricketts-FGvRZ-BeCKo-unsplash.jpg');
+
+    background-size: cover;
+    color: #FFF;
+
+    &__title {
+        font-size: 4rem;
+        font-weight: 800;
+        animation-name: moveInLeft;
+        animation-duration: 1.25s;
+        animation-timing-function: ease-out;
+
+        &-name {
+            color: #09C8FF;
+        }
+    }
+
+    &__subheading {
+        font-size: 2.5rem;
+        animation: moveInRight 1.25s ease-out;
+    }
+}
+
+.btn {
+    border: 1px solid #FFF;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #FFF;
+    font-family: inherit;
+    background: transparent;
+}
