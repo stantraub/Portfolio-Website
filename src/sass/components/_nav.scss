@@ -13,6 +13,8 @@
             cursor: pointer;
             font-size: 1.6rem;
             transition: color .5s;
+            text-decoration: none;
+            color: inherit;
 
             &:hover {
                 color: $color-secondary-light;

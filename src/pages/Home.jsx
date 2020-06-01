@@ -1,17 +1,19 @@
 import React from 'react';
 import '../sass/main.scss'
+import { Link } from "react-router-dom";
+
 
 const Home = () => (
-  <section className="about flex-col">
-    <div className="about__title">
-      Hey there, I'm <span className="about__title-name">Stanley Traub</span>.
+  <section className="heading flex-col whole-page-height">
+    <div className="heading__title">
+      Hey there, I'm <span className="heading__title-name">Stanley Traub</span>.
     </div>
-    <p className="about__subheading">
+    <p className="heading__subheading">
       I'm a full-stack web developer with killer ballroom dancing skills.
     </p>
-    <button className="btn">
-        Check out my work &rarr;
-    </button>
+    <Link to='portfolio'>
+      <button className="btn">Check out my work &rarr;</button>
+    </Link>
   </section>
 );
 
