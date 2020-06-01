@@ -58,8 +58,8 @@
             margin-top: 1rem;
             font-size: 1.4rem;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(rem, min-content));
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+            gap: 1.5rem;
         }
 
         &__item {
@@ -76,27 +76,11 @@
                 background-color: $color-secondary-light;
             }
 
-            &-knowledge {
-            }
 
-            &-percentage {
-                color: $color-grey-text;
-                position: absolute;
-                top: .2rem;
-                right: .5rem;
-            }
 
         }
     }
 
-    .bar {
-        width: 70%;
-
-        &__fill {
-            background-color: royalblue;
-            height: 100%;
-        }
-    }
 
 
 

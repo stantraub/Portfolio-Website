@@ -1,5 +1,6 @@
 import React from 'react'
 import stan from '../images/stan.png'
+import Skill from "../components/skill"
 
 const About = () => (
   <section className="about whole-page-height flex-col">
@@ -20,35 +21,16 @@ const About = () => (
       <div className="skills__list">
         <h2 className="skills__list__heading">TECHNOLOGIES</h2>
         <div className="skills__list__container">
-          <div className="skills__list__item flex-row">
-            <div className="skills__list__item-name">React</div>
-            <div className="bar">
-              <div
-                style={{ width: "90%" }}
-                className="bar__fill"
-              ></div>
-              <span className="skills__list__item-percentage">90%</span>
-            </div>
-          </div>
-
-          {/* 
-            <div className="skills__list__item">React</div>
-          <div className="skills__list__item">Redux</div>
-          <div className="skills__list__item">CSS</div>
-          <div className="skills__list__item">SCSS</div>
-          <div className="skills__list__item">HTML</div>
-          <div className="skills__list__item">JavaScript</div>
-          <div className="skills__list__item">AWS</div>
-          <div className="skills__list__item">NextJS</div>
-          <div className="skills__list__item">Express.js</div>
-          <div className="skills__list__item">MySQL</div>
-          <div className="skills__list__item">MongoDB</div>
-          <div className="skills__list__item">GraphQL</div>
-          <div className="skills__list__item">Apollo</div>
-          <div className="skills__list__item">Docker</div>
-          <div className="skills__list__item">Git</div>
-          <div className="skills__list__item">AWS</div>
-            */}
+          <Skill skill="SCSS/CSS3" percentage={90} />
+          <Skill skill="React" percentage={90} />
+          <Skill skill="HTML" percentage={90} />
+          <Skill skill="Redux" percentage={80} />
+          <Skill skill="JavaScript" percentage={80} />
+          <Skill skill="GraphQL" percentage={50} />
+          <Skill skill="MongoDB" percentage={65} />
+          <Skill skill="NodeJs" percentage={65} />
+          <Skill skill="Express" percentage={60} />
+          <Skill skill="Apollo" percentage={50} />
         </div>
       </div>
     </div>
