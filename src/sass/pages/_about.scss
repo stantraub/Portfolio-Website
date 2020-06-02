@@ -2,9 +2,9 @@
     background-color: $color-background;
     color: $color-white;
     align-items: center;
+    padding: 2rem;
 
     &__shape {
-        margin-top: 2.5rem;
         width: 12.5rem;
         height: 12.5rem;
     }
@@ -70,7 +70,7 @@
             &-name {
                 font-weight: bold;
                 text-align: center;
-                width: 30%;
+                min-width: 10rem;
                 height: 100%;
                 padding: .3rem;
                 background-color: $color-secondary-light;

@@ -1,5 +1,5 @@
     .bar {
-        width: 70%;
+        width: 80%;
 
         &__fill {
             background-color: royalblue;
@@ -7,7 +7,7 @@
         }
 
         &-percentage {
-            color: $color-grey-text;
+            color: $color-black;
             position: absolute;
             top: .2rem;
             right: .4rem;
