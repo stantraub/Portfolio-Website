@@ -21,16 +21,16 @@ const About = () => (
       <div className="skills__list">
         <h2 className="skills__list__heading">TECHNOLOGIES</h2>
         <div className="skills__list__container">
-          <Skill skill="SCSS/CSS3" percentage={90} />
-          <Skill skill="React" percentage={90} />
-          <Skill skill="HTML" percentage={90} />
-          <Skill skill="Redux" percentage={80} />
-          <Skill skill="JavaScript" percentage={80} />
-          <Skill skill="GraphQL" percentage={50} />
-          <Skill skill="MongoDB" percentage={65} />
-          <Skill skill="NodeJs" percentage={65} />
-          <Skill skill="Express" percentage={60} />
-          <Skill skill="Apollo" percentage={50} />
+          <Skill skill="SCSS/CSS3" percentage={90} timing={1.6} />
+          <Skill skill="React" percentage={90} timing={1.7} />
+          <Skill skill="HTML" percentage={90} timing={1.8} />
+          <Skill skill="Redux" percentage={80} timing={1.9}/>
+          <Skill skill="JavaScript" percentage={80} timing={2}/>
+          <Skill skill="GraphQL" percentage={50} timing={2.1}/>
+          <Skill skill="MongoDB" percentage={65} timing={2.2}/>
+          <Skill skill="Node.js" percentage={65} timing={2.3}/>
+          <Skill skill="Express" percentage={60} timing={2.4}/>
+          <Skill skill="Apollo" percentage={50} timing={2.5}/>
         </div>
       </div>
     </div>

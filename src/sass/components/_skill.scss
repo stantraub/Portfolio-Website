@@ -1,15 +1,15 @@
-    .bar {
-        width: 80%;
-
-        &__fill {
-            background-color: royalblue;
-            height: 100%;
-        }
-
-        &-percentage {
-            color: $color-black;
-            position: absolute;
-            top: .2rem;
-            right: .4rem;
-        }
+.bar {
+    width: 80%;
+    
+    &__fill {
+        background-color: royalblue;
+        height: 100%;
     }
+
+    &-percentage {
+        color: $color-black;
+        position: absolute;
+        top: .2rem;
+        right: .4rem;
+    }
+}

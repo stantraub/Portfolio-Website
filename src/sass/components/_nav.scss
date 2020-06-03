@@ -3,6 +3,7 @@
     color: #FFF;
     height: calc(5rem - .3rem);
     border-bottom: .3rem solid $color-secondary-light;
+    z-index: 10;
 
     &__links {
         list-style: none;
