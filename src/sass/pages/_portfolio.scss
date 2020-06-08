@@ -18,3 +18,20 @@
     }
 }
 
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, min-content));
+    margin-top: 5rem;
+
+    &-show {
+        width: 35rem;
+    }
+
+    &__img-photo {
+        width: 100%;
+        object-fit: cover;
+        height: 40rem;
+
+    }
+}
+
